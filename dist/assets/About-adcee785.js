@@ -1,0 +1,1 @@
+import{b as t,al as r,x as a,aq as n,ap as o}from"./index-b1e28fe0.js";import{b as s}from"./useTitle-aa34e278.js";const d=async()=>await(await fetch("https://fd.newalist.top/alist/readme.md")).text(),m=()=>{t(),s("manage.sidemenu.about");const[e]=r(d);return a(o,{get loading(){return e.loading},get children(){return a(n,{get children(){return e()}})}})};export{m as default};
